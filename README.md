@@ -20,14 +20,14 @@ Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks
 - -z	Delete the file with shredding.
 - -k	Delete the all log files with shredding.
 - The usage: ./purge.sh [-k]
-- The usage: ./purge.sh [-z] <AbsoluteFilePath>
+- The usage: ./purge.sh [-z] &lt;AbsoluteFilePath&gt;
   
 ### Cleaning
 - -l	Clean the all log files.
 - -j	Clean the file.
 - -c	Clean the all history files.
 - The usage: ./purge.sh [-l]
-- The usage: $0 [-j] <AbsoluteFilePath>
+- The usage: $0 [-j] &lt;AbsoluteFilePath&gt;
 
 ### Purge
 - -x	Do both timestomp and cleaning for log files.
