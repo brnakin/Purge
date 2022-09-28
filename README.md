@@ -13,8 +13,8 @@ Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks
 - -s	Changes the symbolic link's timestamp of a file.
 - -e	Changes the access, modification, and symbolic link's timestamp of a file.
 - -v	Print current dates of a file.
-The usage: ./purge.sh [-t]
-The usage: ./purge.sh [-a] [-m] [-s] [-e] [-v] <AbsoluteFilePath>
+- The usage: ./purge.sh [-t]
+- The usage: ./purge.sh [-a] [-m] [-s] [-e] [-v] <AbsoluteFilePath>
 
 ### Removing
 - -z	Delete the file with shredding.
