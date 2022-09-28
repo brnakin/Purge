@@ -6,7 +6,7 @@ Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks
 
 ## The usage
 
-###Timestomp
+### Timestomp
 -t	Changes the all log files' timestamp.
 -a	Changes the access time of a file.
 -m	Changes the modification time of a file.
@@ -16,20 +16,20 @@ Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks
 The usage: ./purge.sh [-t]
 The usage: ./purge.sh [-a] [-m] [-s] [-e] [-v] <AbsoluteFilePath>
 
-####Removing
+### Removing
 -z	Delete the file with shredding.
 -k	Delete the all log files with shredding.
 The usage: ./purge.sh [-k]
 The usage: ./purge.sh [-z] <AbsoluteFilePath>
   
-####Cleaning
+### Cleaning
 -l	Clean the all log files.
 -j	Clean the file.
 -c	Clean the all history files.
 The usage: ./purge.sh [-l]
 The usage: $0 [-j] <AbsoluteFilePath>
 
-####Purge
+### Purge
 -x	Do both timestomp and cleaning for log files.
 -u	Shutdown the system.
 The usage: ./purge.sh [-u] [-x]
