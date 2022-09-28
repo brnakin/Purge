@@ -7,10 +7,8 @@ Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks
 ## The usage
 
 ### Timestomp
-<lu>
-  <li>-t  Changes the all log files' timestamp.</li>
-</lu>
--a	Changes the access time of a file.
+- -t  Changes the all log files' timestamp.
+- -a	Changes the access time of a file.
 -m	Changes the modification time of a file.
 -s	Changes the symbolic link's timestamp of a file.
 -e	Changes the access, modification, and symbolic link's timestamp of a file.
