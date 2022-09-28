@@ -1,13 +1,15 @@
 # Purge
 
-## Anti-Forensic Tool
+## Description
 
 Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks. The system's log files will be modified using anti-forensic techniques.
 
 ## The usage
 
 ### Timestomp
--t	Changes the all log files' timestamp.
+<lu>
+<li>-t	Changes the all log files' timestamp.</li>
+</lu>
 -a	Changes the access time of a file.
 -m	Changes the modification time of a file.
 -s	Changes the symbolic link's timestamp of a file.
