@@ -2,7 +2,7 @@
 
 ## Description
 
-Purge is an anti-forensic tool. Attackers use this tool to cover up their tracks. The system's log files will be modified using anti-forensic techniques.
+Purge is an anti-forensic tool for Linux. Attackers use this tool to cover up their tracks. The system's log files will be modified using anti-forensic techniques.
 
 ## The usage
 
